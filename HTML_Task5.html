@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-spacing: 0px;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td{
+            border: 1px solid black;
+        }
+        h2{
+            text-align: center;
+        }
+        input{
+            width: 98%;
+            text-align: center;
+        }
+        .submit1{
+            width: 100px;
+            display:inline-block ;
+            text-align: center;
+            margin: auto;
+            
+        }
+        .submit2{
+            text-align: center;
+            border: 0;
+        }
+        
+    </style>
+</head>
+<body>
+  <h2>STUDENT REGISTRATION FORM</h2>
+  <form action="">
+    <table align="center" cellpadding="2">
+
+        <!-- First name  -->
+        <tr>
+            <td><strong>First Name</strong></td>
+            <td><input type="text" name="fname" id="fname"></td>
+        </tr>
+        <tr>
+            <td><strong>Last Name</strong></td>
+            <td><input type="text" name="lname" id="lname"></td>
+        </tr>
+        <tr>
+            <td ><strong>Email</strong></td>
+            <td ><input type="email" name="Email"></td>
+        </tr>
+        <tr>
+            <td ><strong>Password</strong></td>
+            <td ><input type="password" name="Password"></td>
+        </tr>
+        <tr>
+            <td ><strong>Re-enter Password</strong></td>
+            <td ><input type="password" name="Re-Password"></td>
+        </tr>
+        <tr>
+            <td rowspan=2 ><strong>Gender:</strong></td>
+            <td  check-boxes>
+              <input type="radio" name="Gender" value="Male" id="Checkbox" style="width: auto;">
+              <label for="Checkbox">Male</label>
+            </td>
+        </tr>
+        <tr>
+            <td >
+              <input type="radio" name="Gender" value="Female" id="Checkbox" style="width: auto;">
+              <label for="Checkbox">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td ><strong>Age:</strong></td>
+            <td ><input type="number" name="Age"></td>
+        </tr>
+          <tr>
+            <td ><strong>Address</strong></td>
+            <td ><textarea name="Address" rows=7 style="width: 99%;"></textarea></td>
+        </tr>
+          <tr>
+            <td ><strong>State</strong></td>
+            <td ><input type="text" name="State"></td>
+        </tr>
+          <tr>
+            <td ><strong>Country</strong></td>
+            <td >
+              <select name="Counrty" style="width: 150px;">
+                <option>Choose your counrty</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>Japan</option>
+                <option>Russia</option>
+                <option>South Africa</option>
+                <option>Brazil</option>
+                <option>Canada</option>
+                <option>Germany</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td ><strong>Language known</strong></td>
+            <td >
+              <input type="checkbox" name="Language" value="English" id="Checkbox" style="width: auto;">
+              <label for="Checkbox">English</label>
+              <input type="checkbox" name="Language" value="Kannada" id="Checkbox" style="width: auto;">
+              <label for="Checkbox">Kannada</label>
+              <input type="checkbox" name="Language" value="Hindi" id="Checkbox" style="width: auto;">
+              <label for="Checkbox">Hindi</label>
+              <input type="checkbox" name="Language" value="Telugu" id="Checkbox" style="width: auto;">
+              <label for="Checkbox">Telugu</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" >
+              <input type="checkbox" name="Confirm" value="Confirm" id="Checkbox" style="width: auto;">
+              <label for="Checkbox">Hereby I declare all the given details are true</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: right;">
+              Log in to <a href="https://ethnus.com/">Ethnus</a> website
+            </td>
+          </tr>
+          <tr><td colspan="2" class="submit2"><br><input class="submit1" type="submit" value="Register" ></td></tr>
+
+    </table>
+  </form>
+</body>
+</html>

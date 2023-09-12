@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h3{
+            text-align: center
+        }
+        form{
+            margin-left: auto;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+    </style>
+    <h3><u>Making a simple registration form</u></h3><br>
+    
+    <form >
+        <!-- Inline elements/ non block elements -->
+        <label for="fullname">Full Name</label>
+        <input type="text" placeholder="Full Name" id="fullname" /><br> <br>
+        
+        <label for="username">User Name</label>
+        <input type="text" placeholder="User Name" id="username" /> <br> <br>
+        
+        
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" /> <br> <br>
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" id="confirmPassword" /> <br> <br>
+        
+        <label for="address" >Address <br></label> 
+        <textarea id="address" name="address" rows="4" cols="50" >
+        </textarea>
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" value="Age">
+        <br><br>
+
+        <label for="gender">Gender :</label>
+
+        <select id="gender">
+        <option value="male" selected>Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+        </select>
+        <br><br>
+        
+        <input type="submit" value="Save" />
+    </form>
+    <!-- block elements -> taking the entire width of the web page -->
+</body>
+</html>
